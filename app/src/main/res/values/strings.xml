@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FotoDiary</string>
+    <string id="button" name="button">Add Photo</string>
+    <string name="button2">Tap me!</string>
+</resources>
