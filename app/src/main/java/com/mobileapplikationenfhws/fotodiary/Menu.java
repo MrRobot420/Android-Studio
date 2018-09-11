@@ -7,6 +7,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+
+/*      MAIN MENU
+*
+* User can:
+    - Look at Story
+    - Add a Photo (take photo, open library, go to web)
+    - Change Settings (Set time intervall, appearance, restrictions)
+*
+*/
+
+
+
 public class Menu extends AppCompatActivity {
 
     private Button settings_button;
@@ -19,7 +31,7 @@ public class Menu extends AppCompatActivity {
         settings_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openActivitySettings();
+                onClickSettings();
             }
         });
     }
@@ -37,7 +49,7 @@ public class Menu extends AppCompatActivity {
 
 
     // Transits to the Settings Screen
-    public void openActivitySettings() {
+    public void onClickSettings() {
         Intent intent = new Intent(Menu.this, Settings.class);
         startActivity(intent);
     }
