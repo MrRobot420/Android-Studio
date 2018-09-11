@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:typeface="sans"
+        app:fontFamily="sans-serif"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <Switch
+        android:id="@+id/dark_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Switch
+        android:id="@+id/geo_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Geolocation"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Switch
+        android:id="@+id/date_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable auto date completion"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Switch
+        android:id="@+id/camera_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Camera Access"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Switch
+        android:id="@+id/photo_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Photo Access"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+</android.support.constraint.ConstraintLayout>
