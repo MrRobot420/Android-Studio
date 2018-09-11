@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">FotoDiary</string>
-    <string id="button" name="button">Add Photo</string>
-    <string name="button2">Tap me!</string>
+    <string id="show_story" name="show_story">Show Story</string>
+    <string id="add_photo" name="add_photo">Add Photo</string>
+    <string id="settings" name="settings">Settings</string>
+    <string id="imageView" name="imageView"></string>
 </resources>
